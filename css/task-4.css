@@ -1,0 +1,49 @@
+:root {
+  --font-family: "Montserrat", sans-serif;
+}
+
+.login-form {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 8px;
+  padding: 24px;
+  width: 408px;
+  height: 256px;
+  background: #ffffff;
+}
+.login-form label {
+  font-family: var(--font-family);
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.login-form input {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  outline: transparent;
+  margin-top: 8px;
+  padding: 8px 16px;
+}
+.login-form input:hover {
+  border: 1px solid #000000;
+}
+.login-form button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+  background: #4e75ff;
+  border: none;
+  margin-top: 8px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.login-form button:hover,
+.login-form button:focus {
+  background: #6c8cff;
+}
